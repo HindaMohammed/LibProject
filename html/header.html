@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>header</title>
+    <link rel="stylesheet" href="../css/header.css" />
+    <!-- link of fontawesom -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <header>
+   <nav >
+   <ul>
+    <li><a href="home.php">Home</a></li>
+    <li><a href="#">Levels <i class="fa fa-caret-down"></i></a>
+        <div class="sub-menu">
+      <ul>
+        <!-- <i class="fa fa-caret-down"></i> -->
+        <li class="dropdown" ><a href="#">Level 1  <i style="transform: rotate(-90deg);" class="fa fa-caret-down"></i></a>
+            <div class="sub-menu1">
+              <ul>
+               <li><a href="LevelsPage.php?semester=11">First Semester</a></li>
+               <li><a href="LevelsPage.php?semester=12">Second Semester</a></li>
+             </ul> 
+           </div> 
+        </li>
+        <li class="dropdown"><a href="#">Level 2 <i style="transform: rotate(-90deg);" class="fa fa-caret-down"></i></a>
+              <div class="sub-menu1">
+              <ul>
+               <li><a href="LevelsPage.php?semester=21">First Semester</a></li>
+               <li><a href="LevelsPage.php?semester=22">Second Semester</a></li>
+             </ul> 
+           </div> 
+        </li>
+        <li class="dropdown"><a href="#">Level 3 <i style="transform: rotate(-90deg);" class="fa fa-caret-down"></i></a>
+            <div class="sub-menu1">
+              <ul>
+               <li><a href="LevelsPage.php?semester=31">First Semester</a></li>
+               <li><a href="LevelsPage.php?semester=32">Second Semester</a></li>
+             </ul> 
+           </div> 
+        </li>
+        <li class="dropdown"><a href="#">Level 4 <i style="transform: rotate(-90deg);" class="fa fa-caret-down"></i></a>
+           <div class="sub-menu1">
+              <ul>
+               <li><a href="LevelsPage.php?semester=41">First Semester</a></li>
+               <li><a href="LevelsPage.php?semester=42">Second Semester</a></li>
+             </ul> 
+           </div> 
+        </li>
+        <li class="dropdown"><a href="#">Lavel-5 <i style="transform: rotate(-90deg);" class="fa fa-caret-down"></i></a>
+             <div class="sub-menu1">
+              <ul>
+               <li><a href="LevelsPage.php?semester=51">First Semester</a></li>
+               <li><a href="LevelsPage.php?semester=52">Second Semester</a></li>
+             </ul> 
+           </div> 
+        </li>
+     </ul>
+     </div>
+    </li>
+    <li><a href="programm.php">Programms</a></li>
+    <li><a href="contact.php">Contact us</a></li>
+    <a id="quik" href="home.php"> Quick access</a>
+       <div class="search">
+                    <form action="results_search.php?" method="get">
+                        <input type="text" name="search_text" id="search_text"  placeholder="Search..."/>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+       </div>
+  </ul>
+ 
+</nav>
+</header>
+
+</body>
+
+</html>

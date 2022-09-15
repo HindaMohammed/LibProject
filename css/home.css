@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin:0;
+    padding:0; 
+}
+.hero {
+  height:500px;
+  background-image: url("../image/access.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero p{
+  /* position:  relative; */
+  display:flex;
+  text-align: center;
+  justify-content:center;
+  align-content: center;
+  padding:15%;
+  font-size: 22px;
+ font-weight: bold;
+ font-family:cursive;
+ color:#f2c618;
+   /* padding-bottom:-20%; */
+  /* padding-right: 20px;
+  padding-left: -50px; */
+} 
+#container{
+  height:auto;
+  margin: 30px 30px 20px 20px  ;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fdfaef;
+}
+.bookimage img{
+    border-radius: 15%;
+    margin-top: 100px ;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+
+
+.contain   {
+    margin-top: 60px ;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    font-size: 17px;
+    font-weight:bold;
+    /* font-weight: 400 ; */
+    font-family:  Playfair Display;
+     color:#111111 ;
+}
+
+h2 , h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Amiri ;
+    color:#111111 ;    
+}
+ 
+
+
+
